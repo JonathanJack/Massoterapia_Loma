@@ -132,6 +132,7 @@
 .redes-sociais img {
   width: 5%;
   margin-right: 3rem;
+  cursor: pointer;
 }
 
 @media (max-width: 576px) {

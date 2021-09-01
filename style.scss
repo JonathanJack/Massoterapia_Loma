@@ -104,6 +104,7 @@
     & img{
         width: 5%;
         margin-right: 3rem;
+        cursor: pointer;
 
         @media(max-width: 576px){
             width: 15%;
@@ -111,25 +112,6 @@
 
     }
 }
-
-// .container{
-//     display: flex;
-//     transition: transform 0.5s ease-in-out;
-//     transform: translateX(0); 
-    
-//     img{
-//         object-fit: cover;
-//         height: 500px;
-//         width: 500px;    
-//     }
-// }
-
-// .carrossel{
-//     box-shadow: 2px 2px 4px black;
-//     overflow: hidden;
-//     height: 500px;
-//     width: 500px;
-// }
 
 
 
