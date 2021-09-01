@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="resp.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,8 +69,13 @@
    </section> 
    <section id="aposentos">
     <h1 class="text-center mt-5">Conheçam nossos aposentos</h1>
-    <div></div>
-   </section>
+    <div class="carrossel">        
+        <div class="c-carousel" id="img">
+            <img src="/Massoterapia_Loma/img/consult1.jpg" alt="">
+            <img src="/Massoterapia_Loma/img/consult2.png" alt="">
+            <img src="/Massoterapia_Loma/img/consult3.jpg" >
+        </div>
+      </div>
    <section  id="recomendacoes" class="entre-setores">
     <h1 class="text-center mt-5">O que ja disseram de nós</h1>
     <div class="mt-5 block-sm-flex justify-content-around">
@@ -102,12 +108,15 @@
 </section>
    <section id="contato">
        <h1 class="text-center mb-5 ">Mande-nos um oi!</h1>
-        <div class="d-flex justify-content-center flex-sm-row flex-column redes-sociais">            
+        <div class="d-flex justify-content-center flex-sm-row pb-3 redes-sociais">            
                 <img src="img/insta.png">                         
                 <img src="img/face.png">                         
-                <img src="img/wpp.png">             
+                <img class="d-none d-sm-flex" src="img/wpp.png">             
         </div>
    </section> 
-       
+   <script type="text/javascript" src="/script.js"></script>
+   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>   
 </body>
+
 </html>
