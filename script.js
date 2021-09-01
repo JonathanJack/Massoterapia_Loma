@@ -13,7 +13,7 @@ function carrossel(){
     tam = 0;
   }
   
-  console.log(tam);
+  
   imgs.style.transform = 'translateX(' + tam +'px)';
 }
 
