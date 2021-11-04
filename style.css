@@ -130,14 +130,14 @@
 }
 
 .redes-sociais img {
-  width: 5%;
+  width: 8%;
   margin-right: 3rem;
   cursor: pointer;
 }
 
 @media (max-width: 576px) {
   .redes-sociais img {
-    width: 15%;
+    width: 28%;
   }
 }
 /*# sourceMappingURL=style.css.map */
